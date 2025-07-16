@@ -1,5 +1,5 @@
 import express from 'express';
-import chatbotRouter from '@/routes/genimi';
+import chatbotRouter from './routes/genimi';
 import cors from 'cors';
 const app = express();
 app.use(express.json());
